@@ -1,18 +1,19 @@
 /*
+Title: Creating a String Array
+Author: George Clayson
+Date: 12/1/2020
+Modified by: George Clayson
 Expected output
-
-George Clayson
-Exercise 5.2
-12/1/2020
-
-pear
-grape
-banana
-peach
-orange
+Steak
+Potatoes
+Pizza
+Sushi
+Tacos
 */
 // start program
-var foods=["steak","Potatoes","Pizza","Sushi","Tacos",]
+//Function
+var foods=["Steak","Potatoes","Pizza","Sushi","Tacos",]
+// Output
  foods.forEach (function(food) {
      console.log(food);
  });

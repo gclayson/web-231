@@ -1,0 +1,56 @@
+/*
+Title: Array like object collections
+Author:George Clayson
+Date: 12/1/2020
+Modified by: George Clayson
+Description:
+Expected Output
+lastName: Ford, Genre: Action, rating: 5
+lastName: Allen, Genre: Comedy, rating: 4
+lastName: Custou, Genre: Documentary, rating: 3
+lastName: Harrison, Genre: Musical, rating: 2
+lastName: Curtis, Genre: Horror, rating: 1
+*/
+// start program
+ var actors = [
+    {
+       firstName:"Harrison",
+       lastName:"Ford",
+       genre:"Action",
+       rating: 5
+    },
+    {
+       firstName:"Woody",
+       lastName:"Allen",
+       genre:"Comedy",
+       rating: 4
+    },
+    
+    {
+       firstName:"Jaques",
+       lastName:"Custou",
+       genre:"Documentary",
+       rating: 3
+    },
+    
+    {
+       firstName:"Rex",
+       lastName:"Harrison",
+       genre:"Musical",
+       rating: 2
+    },
+    {
+       firstName:"Jamie Lee",
+       lastName:"Curtis",
+       genre:"Horror",
+       rating: 1
+    }
+ ];
+ // output
+    actors.forEach (function(actor) { 
+        console.log(
+            "lastName: " + actor.lastName + ", Genre: " + actor.genre + ", rating: " + actor.rating )
+    });
+
+//end program
+
